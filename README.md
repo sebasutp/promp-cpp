@@ -69,12 +69,12 @@ decide to install these packages from the source (For instance, if your OS packa
 1. [Armadillo](http://arma.sourceforge.net/)
 2. [Boost](http://www.boost.org/)
 3. [CMake](https://cmake.org/)
-TODO: json.
+3. [JSON](https://github.com/nlohmann/json)
 
-In Ubuntu 16.04, all this packages (except the 6 and 12) can be installed with a single command:
+These can be installed with the following command:
 
 ```
-sudo apt-get install libarmadillo-dev libboost-dev libboost-test-dev cmake
+sudo apt-get install libarmadillo-dev libboost-dev libboost-test-dev cmake nlohmann-json-dev
 ```
 
 After the pre-requisites are installed, download the source of this library, compile and install. You need
