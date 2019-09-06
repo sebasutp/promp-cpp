@@ -109,3 +109,17 @@ CMake list file for tests.
 
 I used also DOxygen to document my API. Not all the code has been documented but I am always trying to improve
 that.
+
+Publications
+------------
+
+The implementations provided in this repository are based on the following publications:
+
+1) [Adaptation and Robust Learning of Probabilistic Movement Primitives](https://arxiv.org/pdf/1808.10648.pdf)
+2) [Using probabilistic movement primitives for striking movements, IEEE RAS International 
+Conference on Humanoid Robots, 2016](https://ieeexplore.ieee.org/abstract/document/7803322/)
+
+Please refer to these papers to understand our implementation, get general information about
+probabilistic movement primitives and see the evaluation of the implemented methods in real
+robotic platforms. We also have a [Python implementation](https://github.com/sebasutp/promp) of
+these methods, including the code to train the Probabilistic Movement Primitives.
